@@ -54,7 +54,7 @@ func main() {
 	var model = "gpt-3.5-turbo"
 	data1.Temperature = 0.2
 	var messages []message
-	messages = append(messages, message{"user", "你好用日语怎么说"})
+	messages = append(messages, message{"user", "你好用英语怎么说"})
 	data1.Messages = messages
 	data1.Temperature = 0.5
 	//proxyUrl, err := url.Parse("http://192.168.5.120:7890")
